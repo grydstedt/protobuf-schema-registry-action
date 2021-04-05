@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message ExampleMessage {
+
+  option topic = "BusuuExampleEvent";
+ 
+  string message = 1;
+  string extra = 2;
+}
